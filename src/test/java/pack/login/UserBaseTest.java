@@ -32,7 +32,7 @@ public class UserBaseTest extends AppiumParallelTest {
 		//deleteAppIOS("com.tesco.sample");
 	}
 
-	public AppiumDriver<MobileElement> driver_and() {
+	public AppiumDriver<MobileElement> getDriver() {
 		return driver;
 	}
 
